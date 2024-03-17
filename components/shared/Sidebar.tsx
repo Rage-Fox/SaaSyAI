@@ -27,8 +27,8 @@ const Sidebar = () => {
                           <Image
                             src={link.icon}
                             alt="logo"
-                            width={24}
-                            height={24}
+                            width={20}
+                            height={20}
                             className={`${isActive && 'brightness-200'}`}
                           />
                           {link.label}
@@ -46,8 +46,8 @@ const Sidebar = () => {
                           <Image
                             src={link.icon}
                             alt="logo"
-                            width={24}
-                            height={24}
+                            width={20}
+                            height={20}
                             className={`${isActive && 'brightness-200'}`}
                           />
                           {link.label}
