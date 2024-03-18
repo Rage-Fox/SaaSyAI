@@ -14,7 +14,7 @@ const Home = async ({ searchParams }: SearchParamProps) => {
     <>
       <section className="home">
         <h1 className="home-heading">
-          Dive into your vision with SaaSy AI
+          Dive into your imagination with SaaSy AI
         </h1>
         <ul className="flex-center w-full gap-20">
           {navLinks.slice(1, 6).map((link) => (
